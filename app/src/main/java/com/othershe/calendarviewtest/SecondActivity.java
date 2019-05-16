@@ -10,6 +10,6 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         
-        setcontentView("12334);
+        setContentView(R.layout.input_layout);
     }
 }
