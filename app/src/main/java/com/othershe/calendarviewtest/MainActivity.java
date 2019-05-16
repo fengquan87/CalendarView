@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         final TextView title = (TextView) findViewById(R.id.title);
         //当前选中的日期
         chooseDate = findViewById(R.id.choose_date);
-
         calendarView = (CalendarView) findViewById(R.id.calendar);
         HashMap<String, String> map = new HashMap<>();
         map.put("2017.10.30", "qaz");
